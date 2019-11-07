@@ -17,4 +17,4 @@ RUN mkdir -p /src && \
     git clone https://github.com/FireflyTeam/repo.git && \
     git config --global user.name "docker" && \
     git config --global user.email "" && \
-    git config --global --color.status "true"
+    git config --global color.status "true"
